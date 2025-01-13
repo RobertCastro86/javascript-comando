@@ -13,7 +13,3 @@ Este repositório contém exercícios e projetos desenvolvidos durante meu apren
 ## Contribuições
 
 Sinta-se à vontade para abrir issues, fazer pull requests ou apenas explorar o código. Toda contribuição é bem-vinda!
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
