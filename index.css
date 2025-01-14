@@ -6,6 +6,10 @@
   
 }
 
-.azul{
+.azul {
 	background-color: blue;
+}
+
+.campo-preenchido {
+	border: 1px solid green;
 }

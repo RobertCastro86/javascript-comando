@@ -95,4 +95,63 @@ quadrado.addEventListener('click', ()=> {
 });*/
 
 
+//Exercicio 4
+
+//Validando o preenchimento das informações de um input.
+
+//Descrição da tarefa: Nesse exercício, temos um formulário com um input e um botão. O objetivo é que ao clicar no botão, seja feita uma verificação se o input foi preenchido. Se ele estiver vazio, deve ser exibido um alerta com a mensagem “Por favor, preencha o campo de nome”. Caso contrário, deve ser exibido um alerta com a mensagem “Obrigado por preencher o campo de nome”.
+
+/*const inputText = document.querySelectorAll('.input-nome');
+
+inputText.forEach(input => {
+
+  input.addEventListener('change', () =>{
+    if(input.value !== ''){
+      alert('Por favor, preencha o campo de nome');
+      input.classList.add('campo-preenchido')
+    } else {
+    alert('Obrigado por preencher o campo de nome');
+    input.classList.remove('campo-preenchido')
+    }
+  });
+});*/
+
+/*  Objetivo do exercício: Ao preencher alguma informação nos inputs, deve ser verificado se estão vazios ou não. 
+													 Caso tiver algum valor, será adicionada a borda verde. Se não tiver, é removida a borda.
+
+        Passo 1 - Pegar todos os inputs que tenham a mesma classe.
+
+        Passo 2 - Dar um jeito de percorrer cada input.
+
+        Passo 3 - Quando o usuário preencher algo, precisamos disparar a ação para verificar se o input foi alterado.
+			
+				Passo 4 - Realizar a verificação se o valor do input é diferente de vazio.
+
+				Passo 5 - Se o input tiver alguma informação, adicionamos a classe de campo-preenchido que vai dar a borda verde ao input.
+
+				Passo 6 - Se o input estiver vazio, removemos a classe campo-preenchido.
+*/
+
+
+// Passo 1 - Pegar todos os inputs que tenham a mesma classe com o querySelectorAll.
+/*const inputText = document.querySelectorAll(".input-text");
+
+// Passo 2 - Dar um jeito de percorrer cada input - vamos utilizar o laço de repetição forEach para percorrer cada input.
+inputText.forEach(input => {
+		// Passo 3 - Quando o usuário preencher algo, precisamos disparar a ação para verificar se o input foi alterado.
+    input.addEventListener('change', () => {
+				// Passo 4 - Realizar a verificação se o valor do input é diferente de vazio.
+        if (input.value !== "") {
+						// Passo 5 - Se o input tiver alguma informação, adicionamos a classe de campo-preenchido que vai dar a borda verde ao input.
+            input.classList.add("campo-preenchido")
+        } else {
+						// Passo 6 - Se o input estiver vazio, removemos a classe campo-preenchido.
+            input.classList.remove("campo-preenchido")
+        }
+    });
+});
+
+*/
+
+//Exercício 5
 
